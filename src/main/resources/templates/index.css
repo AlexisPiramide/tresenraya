@@ -1,0 +1,23 @@
+*{
+    font-size: 40px
+}
+
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    list-style: none;
+    height: 540px;
+    width: 540px;
+}
+
+.cell {
+    border: 1px solid black;
+    text-align: center;
+    height: 180px;
+    width: 180px;
+    justify-self: center;
+    align-self: center;
+}
+
